@@ -1,1 +1,1 @@
-# cassava_leaf_classifier
+# cassava-classifier
