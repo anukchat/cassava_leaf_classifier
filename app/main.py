@@ -1,4 +1,6 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+
 from pydantic import ValidationError
 import uvicorn
 
@@ -13,6 +15,19 @@ from response_dto.prediction_response_dto import PredictionResponseDto
 from ml.predictions.classify_image import ImageClassifier
 
 app = FastAPI()
+
+origins = [
+    "http://127.0.0.1:3000",
+    "https://127.0.0.1:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 image_classifier = ImageClassifier()
 

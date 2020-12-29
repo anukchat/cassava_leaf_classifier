@@ -136,3 +136,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+node_modules
+cassava-ui/.eslintcache
+package-lock.json
+.gitignore
+cassava-ui/.eslintcache
+cassava-ui/.eslintcache
+cassava-ui/package-lock.json
