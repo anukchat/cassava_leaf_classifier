@@ -1,0 +1,12 @@
+pytorch_lightning==1.1.1
+torch==1.6.0+cpu
+uvicorn==0.11.8
+pydantic==1.6.1
+albumentations==0.5.2
+efficientnet_pytorch==0.7.0
+numpy==1.19.1
+pandas==1.1.0
+opencv_python_headless==4.4.0.46
+fastapi==0.63.0
+Pillow==8.0.1
+scikit_learn==0.24.0
