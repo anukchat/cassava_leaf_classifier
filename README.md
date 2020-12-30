@@ -68,5 +68,5 @@ Pull requests are welcome. We can grow this together to add many more use cases.
 
 ### Note: I will keep on updating the model to improve its performance in classification
 
-## Thanks for reading and reaching the end!
+## Thanks for reading till the end!
 
