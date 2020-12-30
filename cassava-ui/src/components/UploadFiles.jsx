@@ -8,6 +8,8 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import axios from 'axios'
 
+const PredictApiUrl='http://localhost:8000/predict';
+
 export default class UploadFiles extends Component {
     constructor(props){
         super(props);
@@ -28,7 +30,7 @@ export default class UploadFiles extends Component {
         var formData= new FormData()
         formData.append("file",this.state.file)
 
-        axios.post('http://localhost:8000/predict',formData,{
+        axios.post(PredictApiUrl,formData,{
             headers: {
                 'Content-Type': 'multipart/form-data',
               }
