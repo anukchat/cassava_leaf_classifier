@@ -18,7 +18,7 @@ This project is important because this is an end to end implementation (Fron mod
     4. Run the code with the configuration mentioned in launch.json under .vscode folder (or run command: uvicorn app.main:app --reload)
     5. Note the URL and Port number the API is running on (if it is different than 8000 than update PredictApiUrl in cassava_leaf_classifier\cassava-ui\src\components\UploadFiles.jsx )
 
-![](../render1609325651857.gif)
+![](render1609325651857.gif)
 
 ### Part 2: Starting React JS UI
 
